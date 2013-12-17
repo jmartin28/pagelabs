@@ -1,0 +1,86 @@
+.headerMain{
+	
+	color: #FFFFFF;
+	background-color: #222222;
+	border-radius: 4px;
+	padding: 9px;
+	margin: 9px;
+	display: block;
+	box-shadow: #AAAAAA 0 5px 8px;
+	text-align: left;
+	
+	/*text-align: center;
+	text-shadow: 9px;*/
+  }
+  
+ h1{
+  	display: block:
+  }
+nav{
+
+}
+
+body{
+	background-color: #F1F1F2;
+	/*Propiedades relacionadas a FUENTES*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	/*Propiedades relacionadas al TEXTO*/
+	text-align: left;
+	text-decoration: none;
+	margin: 0;
+}
+
+ul{
+
+	list-style-type: none;
+	
+}
+
+
+.section1{
+	background-color: #F2F1F1;	
+	/*Propiedades relacionadas al borde*/
+	border-width: 6px; /*altura grosor*/
+	
+	border-color: #FFFFFF;
+	
+	padding: 9px;/*Relleno o almohadilla*/
+	margin: 9px;
+	
+}
+.articulo{
+	border-color: #ffffff;
+}
+figure{
+	float:  left;
+	
+}
+
+body footer{
+	background-color: #222;
+	padding: 9px;
+	font-size: 0.9em ;
+	margin: 9px;
+	text-align: center;
+	color: #FFFFFF;	
+	border-radius: 4px;
+	box-shadow: #AAAAAA 0 5px 8px;
+	
+	
+}
+a:link{
+	text-decoration:none;
+	
+}
+a:visited{
+	text-align: center;
+}
+a:hover{
+	font-size: 20px;
+}
+a:active{
+	background-color: #000000;
+}
