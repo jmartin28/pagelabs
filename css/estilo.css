@@ -9,14 +9,22 @@ body{
 	text-align: left;
 	text-decoration: none;
 	margin: 0;
+	padding: 0;
+	display: block;
+
+}
+h1{
+	text-shadow: 4px 4px 6px orange;
 }
 
-ul{
+/*0ul{
 	list-style-type: none;
 	list-style-position: outside;
 	
-}
-li{
+}*/
+ul,li{
+	list-style-type: none;
+	list-style-position: outside;
 	float: rigth;
 }
 
@@ -34,7 +42,7 @@ section{
 article{
 	margin: 9px;
 	border-style: groove;
-	background-color: rgba(3,3,0, 0.2);
+	background-color: rgba(3,3,0, 0.1);
 }
 figure{
 	
@@ -42,15 +50,20 @@ figure{
 	
 }
 
-body footer{
+footer{
 	background-color: #222;
 	padding: 9px;
-	font-size: 0.9em ;
 	margin: 9px;
+	font-size: 0.9em ;
 	text-align: center;
 	color: #FFFFFF;	
 	border-radius: 4px;
 	box-shadow: #AAAAAA 0 5px 8px;
+}
+form{
+	padding: 0;
+	margin: 0;
+	display: inline-block; 
 }
 .headerMain{
 	text-align: center;
@@ -66,12 +79,15 @@ body footer{
 	display: block;
 	box-shadow: #AAAAAA 0 5px 8px;
 	text-align: left;
-	
 }
 
 
 .articulo{/*contacto.html*/
 	border-color: #ffffff;
+}
+
+a{
+	transition: 0.2s ease-in;
 }
 
 a:link{
