@@ -21,3 +21,5 @@
 *.cproject
 *.project
 
+#Archivos generados por Intellij IDEA
+*.iml

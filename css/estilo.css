@@ -1,3 +1,18 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+form,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
 body{
 	background-color: #F1F1F2;
 	/*Propiedades relacionadas a FUENTES*/
@@ -10,11 +25,6 @@ body{
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
-	display: block;
-
-}
-h1{
-	text-shadow: 4px 4px 6px orange;
 }
 
 /*0ul{
@@ -25,9 +35,7 @@ h1{
 ul,li{
 	list-style-type: none;
 	list-style-position: outside;
-	float: rigth;
 }
-
 section{
 	background-color: #F2F1F1;	
 	/*Propiedades relacionadas al borde*/
@@ -54,6 +62,7 @@ footer{
 	background-color: #222;
 	padding: 9px;
 	margin: 9px;
+	height: 100%;
 	font-size: 0.9em ;
 	text-align: center;
 	color: #FFFFFF;	
@@ -63,24 +72,42 @@ footer{
 form{
 	padding: 0;
 	margin: 0;
-	display: inline-block; 
+	width: 10%;
+	display: block;
+
+
+}
+input, textarea{
+	border-radius: 1em;
+	box-shadow: #AAAAAA 0 5px 8px;
+}
+label{
+	text-shadow : 9px;
 }
 .headerMain{
-	text-align: center;
 	text-shadow: 9px;
+	background-color: #222222;
+	box-shadow: #AAAAAA 0 5px 8px;
+	border-radius: 4px;
+	padding: 9px;
+	margin: 9px;
   }
   
 .navMain{
 	color: #FFFFFF;
-	background-color: #222222;
+	background-color: rgba(7,20,24,0.3);
 	border-radius: 4px;
 	padding: 9px;
 	margin: 9px;
-	display: block;
-	box-shadow: #AAAAAA 0 5px 8px;
+	box-shadow: rgba(7,20,24,0.9) 0 5px 8px;
 	text-align: left;
+	
 }
-
+.h1Main{
+	position: relative;
+	text-align: left;
+	text-shadow: 4px 4px 6px orange;
+}
 
 .articulo{/*contacto.html*/
 	border-color: #ffffff;
